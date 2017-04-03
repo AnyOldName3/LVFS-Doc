@@ -1,0 +1,66 @@
+# WritableDirectoryMirror.SetFileSecurity Method 
+ 
+
+Sets the security attributes for the specified sections of the specified file or directory.
+
+**Namespace:**&nbsp;<a href="8e43a026-b829-c5d6-efc2-1a8c2a152363">LayeredDirectoryMirror.DirectoryMirror</a><br />**Assembly:**&nbsp;LayeredDirectoryMirror (in LayeredDirectoryMirror.exe) Version: 1.0.0.0 (1.0.0.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override NtStatus SetFileSecurity(
+	string path,
+	FileSystemSecurity security,
+	AccessControlSections sections,
+	LVFSContextInfo info
+)
+```
+
+**VB**<br />
+``` VB
+Public Overrides Function SetFileSecurity ( 
+	path As String,
+	security As FileSystemSecurity,
+	sections As AccessControlSections,
+	info As LVFSContextInfo
+) As NtStatus
+```
+
+**C++**<br />
+``` C++
+public:
+virtual NtStatus SetFileSecurity(
+	String^ path, 
+	FileSystemSecurity^ security, 
+	AccessControlSections sections, 
+	LVFSContextInfo^ info
+) override
+```
+
+**F#**<br />
+``` F#
+abstract SetFileSecurity : 
+        path : string * 
+        security : FileSystemSecurity * 
+        sections : AccessControlSections * 
+        info : LVFSContextInfo -> NtStatus 
+override SetFileSecurity : 
+        path : string * 
+        security : FileSystemSecurity * 
+        sections : AccessControlSections * 
+        info : LVFSContextInfo -> NtStatus 
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>path</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />The path to the file</dd><dt>security</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/f8bc2bs5" target="_blank">System.Security.AccessControl.FileSystemSecurity</a><br />The security to set</dd><dt>sections</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/wc2zdbth" target="_blank">System.Security.AccessControl.AccessControlSections</a><br />The access control sections to change</dd><dt>info</dt><dd>Type: <a href="09c74a4d-3965-0d4b-f9f9-f9b54f7d56d9">LVFS.External.LVFSContextInfo</a><br />Information concerning the context of this operation.</dd></dl>
+
+#### Return Value
+Type: NtStatus<br />Success if the operation was successful. If not, an appropriate error status.
+
+## See Also
+
+
+#### Reference
+<a href="c822f227-d250-a635-4d8e-a5558d8b91b9">WritableDirectoryMirror Class</a><br /><a href="8e43a026-b829-c5d6-efc2-1a8c2a152363">LayeredDirectoryMirror.DirectoryMirror Namespace</a><br />

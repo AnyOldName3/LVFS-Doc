@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFSDocumentationMarkdown.shfbproj" started="03/04/2017 16:56:25">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Markdown&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown&#39;
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\LVFS\LVFS.csproj
+    Found project &#39;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\LVFS\LVFS.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\LVFS\bin\Debug\LVFS.dll&#39;
+SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.5&#39; to &#39;.NET Framework 4.5.2&#39; for the build.
+
+References to include (excluding framework assemblies):
+    DokanNet, Version=1.1.0.0, Culture=neutral, PublicKeyToken=cef3dedf553bda55, processorArchitecture=MSIL
+    StringInterpolationBridge, Version=0.9.1.0, Culture=neutral, PublicKeyToken=761dcf67ba0bf74d, processorArchitecture=MSIL
+
+Copying XML comments files
+    C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\LVFS\bin\Debug\LVFS.xml -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\LVFS.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 03/04/2017 16:56:25.
+Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 3 dependency assemblies.
+  Wrote information on 1 namespaces, 4 types, and 64 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33
+    Last step completed in 00:00:00.4637
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
+Build started 03/04/2017 16:56:25.
+Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
+    Last step completed in 00:00:00.3220
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2017.1.28.0
+Copyright &#184; 2006-2017, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\*.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\*.xml
+Indexing C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\LVFS.xml
+Indexed 157526 members in 126 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:00.7638
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 03/04/2017 16:56:27.
+Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.1690
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0534
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
+Build started 03/04/2017 16:56:27.
+Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2017.1.28.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:LVFS.External] Missing &lt;summary&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:LVFS.External.LVFSContextInfo] Unknown reference link target &#39;N:DokanNet&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:LVFS.External.LVFSContextInfo] Unknown reference link target &#39;N:DokanNet&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:LVFS.External.LVFSContextInfo.GetRequestor] Unknown reference link target &#39;N:DokanNet&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.CreateFileHandle(System.String,DokanNet.FileAccess,System.IO.FileShare,System.IO.FileMode,System.IO.FileOptions,System.IO.FileAttributes,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.FileAccess&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.CreateFileHandle(System.String,DokanNet.FileAccess,System.IO.FileShare,System.IO.FileMode,System.IO.FileOptions,System.IO.FileAttributes,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.GetFileInformation(System.String)] Unknown reference link target &#39;T:DokanNet.FileInformation&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.GetPredecessorFileInformation(System.String)] Unknown reference link target &#39;T:DokanNet.FileInformation&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.ListFiles(System.String)] Unknown reference link target &#39;T:DokanNet.FileInformation&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.ListPredecessorFiles(System.String)] Unknown reference link target &#39;T:DokanNet.FileInformation&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.PredecessorCreateFileHandle(System.String,DokanNet.FileAccess,System.IO.FileShare,System.IO.FileMode,System.IO.FileOptions,System.IO.FileAttributes,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.FileAccess&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Source.PredecessorCreateFileHandle(System.String,DokanNet.FileAccess,System.IO.FileShare,System.IO.FileMode,System.IO.FileOptions,System.IO.FileAttributes,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.CheckDirectoryDeletable(System.String)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.CheckDirectoryDeletable(System.String)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.CheckFileDeletable(System.String)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.CheckFileDeletable(System.String)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.FlushBuffers(System.String,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.FlushBuffers(System.String,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.MoveFile(System.String,System.String,System.Boolean,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.MoveFile(System.String,System.String,System.Boolean,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorCheckDirectoryDeletable(System.String)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorCheckFileDeletable(System.String)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorFlushBuffers(System.String,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorFlushBuffers(System.String,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorMoveFile(System.String,System.String,System.Boolean,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorMoveFile(System.String,System.String,System.Boolean,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetAllocatedSize(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetAllocatedSize(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetFileAttributes(System.String,System.IO.FileAttributes)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetFileAttributes(System.String,System.IO.FileAttributes)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetFileSecurity(System.String,System.Security.AccessControl.FileSystemSecurity,System.Security.AccessControl.AccessControlSections,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetFileSecurity(System.String,System.Security.AccessControl.FileSystemSecurity,System.Security.AccessControl.AccessControlSections,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetFileTimes(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime})] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetFileTimes(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime})] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetLength(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorSetLength(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorWriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.PredecessorWriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetAllocatedSize(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetAllocatedSize(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetFileAttributes(System.String,System.IO.FileAttributes)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetFileAttributes(System.String,System.IO.FileAttributes)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetFileSecurity(System.String,System.Security.AccessControl.FileSystemSecurity,System.Security.AccessControl.AccessControlSections,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetFileSecurity(System.String,System.Security.AccessControl.FileSystemSecurity,System.Security.AccessControl.AccessControlSections,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetFileTimes(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime})] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetFileTimes(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime})] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetLength(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetLength(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj]
+  Processed 76 topic(s)
+  50 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\BuildTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.61
+    Last step completed in 00:00:04.7435
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\media\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\Markdown\Working\Output\Markdown\_Footer.md
+    Last step completed in 00:00:00.1513
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00.0005
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00.0005
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating markdown content...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateMarkdownContent.proj]
+  Finished generating 76 topics
+  Copying content to output folder...
+  Finished copying 119 files
+    Last step completed in 00:00:00.2792
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0373
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 03/04/2017 16:56:32.  Total time: 00:00:07.3702
+
+</buildStep>
+</shfbBuild>

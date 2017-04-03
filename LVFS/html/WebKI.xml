@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddSource method" Url="html/de4f18ba-5d84-1079-e720-54ad1f4ead78.htm" />
+  <HelpKINode Title="CheckDirectoryDeletable method" Url="html/0adac301-dc32-079b-3227-f74ab723b13e.htm" />
+  <HelpKINode Title="CheckFileDeletable method" Url="html/cd83ef3d-7f5a-1b3b-db23-dfe3b72a4da5.htm" />
+  <HelpKINode Title="CleanupFileHandle method" Url="html/3f62ab1b-5273-10fe-b802-4819c5155bc2.htm" />
+  <HelpKINode Title="CloseFileHandle method" Url="html/2de2b3c4-48d4-9d57-9c3f-840203ca224c.htm" />
+  <HelpKINode Title="Context property" Url="html/f94f2de7-0049-eb11-55be-9989578364c4.htm" />
+  <HelpKINode Title="ControlsFile method" Url="html/87990cd8-571b-6b3e-bf6c-c52786c0e731.htm" />
+  <HelpKINode Title="CreateFileHandle method" Url="html/6b81cead-f2a8-7273-946c-f4c1e0bfe9bf.htm" />
+  <HelpKINode Title="DeleteOnClose property" Url="html/d471a2f4-6046-0d9c-16d1-05c88272c9dc.htm" />
+  <HelpKINode Title="FlushBuffers method" Url="html/8a961dd6-5a11-891c-3233-9576c5ec6aae.htm" />
+  <HelpKINode Title="GetFileInformation method" Url="html/4cafdc44-07b4-0e64-ddda-2168c520670d.htm" />
+  <HelpKINode Title="GetFileSystemSecurity method" Url="html/e84ef4ad-b3fe-7f99-909f-0472db29d73f.htm" />
+  <HelpKINode Title="GetPredecessorFileInformation method" Url="html/0e52fa85-b757-4a2e-bebf-408af3713258.htm" />
+  <HelpKINode Title="GetPredecessorFileSystemSecurity method" Url="html/23248ef0-0dce-bb1b-d7c5-bff377aa5a28.htm" />
+  <HelpKINode Title="GetRequestor property" Url="html/039c26a2-3bbd-95f5-bed4-89027301bb8e.htm" />
+  <HelpKINode Title="GetSpaceInformation method" Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
+  <HelpKINode Title="HasFile method" Url="html/6bc038f3-5c55-3b60-9144-916357a46da7.htm" />
+  <HelpKINode Title="HasFilesInDirectory method" Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
+  <HelpKINode Title="HasWritablePredecessor property" Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
+  <HelpKINode Title="IsDirectory property" Url="html/bde9b35e-0ff3-815a-1b10-1d96036adf5b.htm" />
+  <HelpKINode Title="IsFirst property" Url="html/3a5f7f08-e556-1b42-a610-ef5736c0f408.htm" />
+  <HelpKINode Title="IsWritable property" Url="html/2b1dc17e-a782-5622-900f-d5d281a0bbae.htm" />
+  <HelpKINode Title="ListFiles method" Url="html/f4ba0f3b-d509-8a14-34a2-2ee8e2ed3963.htm" />
+  <HelpKINode Title="ListPredecessorFiles method" Url="html/216780f7-4554-09df-a3c7-9910623d86c4.htm" />
+  <HelpKINode Title="LVFS.External namespace" Url="html/ce38c3d6-f720-9c09-02a8-24d191d963ed.htm" />
+  <HelpKINode Title="LVFS.External.LVFSContextInfo class" Url="html/09c74a4d-3965-0d4b-f9f9-f9b54f7d56d9.htm" />
+  <HelpKINode Title="LVFS.External.LVFSInterface class" Url="html/6a6b1f0f-1f9b-255e-aadf-e9d99eea95b1.htm" />
+  <HelpKINode Title="LVFS.External.Source class" Url="html/05c85d1b-e4e2-db6e-96e7-2b1e8b63402d.htm" />
+  <HelpKINode Title="LVFS.External.WritableSource class" Url="html/eef32198-3bf0-ea5f-1d5c-ef3cf7488a57.htm" />
+  <HelpKINode Title="LVFSContextInfo class">
+    <HelpKINode Title="LVFSContextInfo Class" Url="html/09c74a4d-3965-0d4b-f9f9-f9b54f7d56d9.htm" />
+    <HelpKINode Title="about LVFSContextInfo class" Url="html/09c74a4d-3965-0d4b-f9f9-f9b54f7d56d9.htm" />
+    <HelpKINode Title="methods" Url="html/463162bd-0240-56dc-a68f-489876434d2d.htm" />
+    <HelpKINode Title="properties" Url="html/ee5d4388-bfd1-dcc2-7ac8-a6795512897f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LVFSContextInfo.Context property" Url="html/f94f2de7-0049-eb11-55be-9989578364c4.htm" />
+  <HelpKINode Title="LVFSContextInfo.DeleteOnClose property" Url="html/d471a2f4-6046-0d9c-16d1-05c88272c9dc.htm" />
+  <HelpKINode Title="LVFSContextInfo.GetRequestor property" Url="html/039c26a2-3bbd-95f5-bed4-89027301bb8e.htm" />
+  <HelpKINode Title="LVFSContextInfo.IsDirectory property" Url="html/bde9b35e-0ff3-815a-1b10-1d96036adf5b.htm" />
+  <HelpKINode Title="LVFSContextInfo.NoCache property" Url="html/d2d1d406-0191-c5ef-0aa8-77a05e0e0e69.htm" />
+  <HelpKINode Title="LVFSContextInfo.PagingIo property" Url="html/828f593c-cf77-e30f-df23-33a42eeb649e.htm" />
+  <HelpKINode Title="LVFSContextInfo.ProcessId property" Url="html/a8620861-2efb-c4ea-3e18-75c63210d009.htm" />
+  <HelpKINode Title="LVFSContextInfo.SynchronousIo property" Url="html/32bd87e8-f9e0-2446-5b07-0874b5c4617e.htm" />
+  <HelpKINode Title="LVFSContextInfo.TryResetTimeout property" Url="html/e8275dc7-5594-a485-1819-8152d5d31010.htm" />
+  <HelpKINode Title="LVFSContextInfo.WriteToEndOfFile property" Url="html/d06bc91e-6c41-99be-9aa5-eaeeaeafec62.htm" />
+  <HelpKINode Title="LVFSInterface class">
+    <HelpKINode Title="LVFSInterface Class" Url="html/6a6b1f0f-1f9b-255e-aadf-e9d99eea95b1.htm" />
+    <HelpKINode Title="about LVFSInterface class" Url="html/6a6b1f0f-1f9b-255e-aadf-e9d99eea95b1.htm" />
+    <HelpKINode Title="constructor" Url="html/a539bec6-e245-c23c-8012-15c9a86b65c2.htm" />
+    <HelpKINode Title="methods" Url="html/d83363db-97c7-3a9e-c527-46a8ef43ad48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LVFSInterface.AddSource method" Url="html/de4f18ba-5d84-1079-e720-54ad1f4ead78.htm" />
+  <HelpKINode Title="LVFSInterface.LVFSInterface constructor" Url="html/a539bec6-e245-c23c-8012-15c9a86b65c2.htm" />
+  <HelpKINode Title="LVFSInterface.Mount method" Url="html/2dd21ade-af8a-adb9-e5ee-6a0b9d63fd86.htm" />
+  <HelpKINode Title="Mount method" Url="html/2dd21ade-af8a-adb9-e5ee-6a0b9d63fd86.htm" />
+  <HelpKINode Title="MoveFile method" Url="html/02d6337b-9270-57db-4016-389dcc9c11b6.htm" />
+  <HelpKINode Title="NoCache property" Url="html/d2d1d406-0191-c5ef-0aa8-77a05e0e0e69.htm" />
+  <HelpKINode Title="OnMount method" Url="html/a87f8793-fd47-7f93-eaae-f102ede26e36.htm" />
+  <HelpKINode Title="OnUnmount method" Url="html/3d83661d-c690-d23e-7f47-4f3902c18783.htm" />
+  <HelpKINode Title="PagingIo property" Url="html/828f593c-cf77-e30f-df23-33a42eeb649e.htm" />
+  <HelpKINode Title="PredecessorCheckDirectoryDeletable method" Url="html/57719962-7041-4ed1-4072-7e425adcb152.htm" />
+  <HelpKINode Title="PredecessorCheckFileDeletable method" Url="html/85e63a7b-55c6-c0e0-e9ca-5b1f5e2499bc.htm" />
+  <HelpKINode Title="PredecessorCleanupFileHandle method" Url="html/995644a9-b48c-35dd-f023-3fb4f173ce89.htm" />
+  <HelpKINode Title="PredecessorCloseFileHandle method" Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
+  <HelpKINode Title="PredecessorCreateFileHandle method" Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
+  <HelpKINode Title="PredecessorFlushBuffers method" Url="html/5c7123de-d3bb-a699-59d5-5c0ca104db25.htm" />
+  <HelpKINode Title="PredecessorHasFile method" Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
+  <HelpKINode Title="PredecessorHasFilesInDirectory method" Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+  <HelpKINode Title="PredecessorMoveFile method" Url="html/952c3e49-a11a-8f82-9a3b-67b8c8d1d3e0.htm" />
+  <HelpKINode Title="PredecessorReadFile method" Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
+  <HelpKINode Title="PredecessorSetAllocatedSize method" Url="html/aa659473-07d2-8b83-9e41-613744ff286f.htm" />
+  <HelpKINode Title="PredecessorSetFileAttributes method" Url="html/ad4c2572-5aba-0a50-0bed-3b04bcc4ec62.htm" />
+  <HelpKINode Title="PredecessorSetFileSecurity method" Url="html/a8e492fb-e299-dd3b-6eaa-8a3f4ff099de.htm" />
+  <HelpKINode Title="PredecessorSetFileTimes method" Url="html/324a5584-3ee7-1307-f1ca-11c1340d3aad.htm" />
+  <HelpKINode Title="PredecessorSetLength method" Url="html/508936df-5bb7-c337-b066-37b71ab3293b.htm" />
+  <HelpKINode Title="PredecessorTryLockFileRegion method" Url="html/62df7783-b145-564d-c9a6-450a1f4e09b5.htm" />
+  <HelpKINode Title="PredecessorTryUnlockFileRegion method" Url="html/6c9f4500-0697-9840-2ec0-b739afa5ff8b.htm" />
+  <HelpKINode Title="PredecessorWriteFile method" Url="html/400ae67b-e785-b3a0-b75a-0bb4b854d02f.htm" />
+  <HelpKINode Title="ProcessId property" Url="html/a8620861-2efb-c4ea-3e18-75c63210d009.htm" />
+  <HelpKINode Title="ReadFile method" Url="html/217b92c6-6890-4e84-f4ad-aa1d5a2a9de0.htm" />
+  <HelpKINode Title="SetAllocatedSize method" Url="html/cab46337-5366-95c4-2ba9-e28c2fa1f844.htm" />
+  <HelpKINode Title="SetFileAttributes method" Url="html/4daf9fb6-1498-16c9-f00e-7bad6bf0827e.htm" />
+  <HelpKINode Title="SetFileSecurity method" Url="html/45427a04-60c3-056f-51c1-75d64acbd385.htm" />
+  <HelpKINode Title="SetFileTimes method" Url="html/f7edd0e0-8053-ecc2-2350-901c08c92e81.htm" />
+  <HelpKINode Title="SetLength method" Url="html/7838adce-d355-c09c-748e-944db6429076.htm" />
+  <HelpKINode Title="Source class">
+    <HelpKINode Title="Source Class" Url="html/05c85d1b-e4e2-db6e-96e7-2b1e8b63402d.htm" />
+    <HelpKINode Title="about Source class" Url="html/05c85d1b-e4e2-db6e-96e7-2b1e8b63402d.htm" />
+    <HelpKINode Title="constructor" Url="html/bb274acf-6dbd-f9a8-7298-289706e76042.htm" />
+    <HelpKINode Title="methods" Url="html/77f6692c-21b7-4118-0aa5-774bd4ece55c.htm" />
+    <HelpKINode Title="properties" Url="html/fc0a09df-7bc7-980f-e366-3bcc2225dff5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Source.CleanupFileHandle method" Url="html/3f62ab1b-5273-10fe-b802-4819c5155bc2.htm" />
+  <HelpKINode Title="Source.CloseFileHandle method" Url="html/2de2b3c4-48d4-9d57-9c3f-840203ca224c.htm" />
+  <HelpKINode Title="Source.ControlsFile method" Url="html/87990cd8-571b-6b3e-bf6c-c52786c0e731.htm" />
+  <HelpKINode Title="Source.CreateFileHandle method" Url="html/6b81cead-f2a8-7273-946c-f4c1e0bfe9bf.htm" />
+  <HelpKINode Title="Source.GetFileInformation method" Url="html/4cafdc44-07b4-0e64-ddda-2168c520670d.htm" />
+  <HelpKINode Title="Source.GetFileSystemSecurity method" Url="html/e84ef4ad-b3fe-7f99-909f-0472db29d73f.htm" />
+  <HelpKINode Title="Source.GetPredecessorFileInformation method" Url="html/0e52fa85-b757-4a2e-bebf-408af3713258.htm" />
+  <HelpKINode Title="Source.GetPredecessorFileSystemSecurity method" Url="html/23248ef0-0dce-bb1b-d7c5-bff377aa5a28.htm" />
+  <HelpKINode Title="Source.GetSpaceInformation method" Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
+  <HelpKINode Title="Source.HasFile method" Url="html/6bc038f3-5c55-3b60-9144-916357a46da7.htm" />
+  <HelpKINode Title="Source.HasFilesInDirectory method" Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
+  <HelpKINode Title="Source.HasWritablePredecessor property" Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
+  <HelpKINode Title="Source.IsFirst property" Url="html/3a5f7f08-e556-1b42-a610-ef5736c0f408.htm" />
+  <HelpKINode Title="Source.IsWritable property" Url="html/2b1dc17e-a782-5622-900f-d5d281a0bbae.htm" />
+  <HelpKINode Title="Source.ListFiles method" Url="html/f4ba0f3b-d509-8a14-34a2-2ee8e2ed3963.htm" />
+  <HelpKINode Title="Source.ListPredecessorFiles method" Url="html/216780f7-4554-09df-a3c7-9910623d86c4.htm" />
+  <HelpKINode Title="Source.OnMount method" Url="html/a87f8793-fd47-7f93-eaae-f102ede26e36.htm" />
+  <HelpKINode Title="Source.OnUnmount method" Url="html/3d83661d-c690-d23e-7f47-4f3902c18783.htm" />
+  <HelpKINode Title="Source.PredecessorCleanupFileHandle method" Url="html/995644a9-b48c-35dd-f023-3fb4f173ce89.htm" />
+  <HelpKINode Title="Source.PredecessorCloseFileHandle method" Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
+  <HelpKINode Title="Source.PredecessorCreateFileHandle method" Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
+  <HelpKINode Title="Source.PredecessorHasFile method" Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
+  <HelpKINode Title="Source.PredecessorHasFilesInDirectory method" Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+  <HelpKINode Title="Source.PredecessorReadFile method" Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
+  <HelpKINode Title="Source.PredecessorTryLockFileRegion method" Url="html/62df7783-b145-564d-c9a6-450a1f4e09b5.htm" />
+  <HelpKINode Title="Source.PredecessorTryUnlockFileRegion method" Url="html/6c9f4500-0697-9840-2ec0-b739afa5ff8b.htm" />
+  <HelpKINode Title="Source.ReadFile method" Url="html/217b92c6-6890-4e84-f4ad-aa1d5a2a9de0.htm" />
+  <HelpKINode Title="Source.Source constructor" Url="html/bb274acf-6dbd-f9a8-7298-289706e76042.htm" />
+  <HelpKINode Title="Source.TryLockFileRegion method" Url="html/9af17525-9f28-388c-140e-ebf63570cdff.htm" />
+  <HelpKINode Title="Source.TryUnlockFileRegion method" Url="html/2f9f62fc-25df-6c86-d210-88b90f6a3ad5.htm" />
+  <HelpKINode Title="SynchronousIo property" Url="html/32bd87e8-f9e0-2446-5b07-0874b5c4617e.htm" />
+  <HelpKINode Title="TryLockFileRegion method" Url="html/9af17525-9f28-388c-140e-ebf63570cdff.htm" />
+  <HelpKINode Title="TryResetTimeout property" Url="html/e8275dc7-5594-a485-1819-8152d5d31010.htm" />
+  <HelpKINode Title="TryUnlockFileRegion method" Url="html/2f9f62fc-25df-6c86-d210-88b90f6a3ad5.htm" />
+  <HelpKINode Title="WritableSource class">
+    <HelpKINode Title="WritableSource Class" Url="html/eef32198-3bf0-ea5f-1d5c-ef3cf7488a57.htm" />
+    <HelpKINode Title="about WritableSource class" Url="html/eef32198-3bf0-ea5f-1d5c-ef3cf7488a57.htm" />
+    <HelpKINode Title="constructor" Url="html/789b896f-d4b8-e0a1-3b3a-af7a07ac77ca.htm" />
+    <HelpKINode Title="methods" Url="html/e5f78317-152a-6858-9b43-bb9d36bfab7b.htm" />
+    <HelpKINode Title="properties" Url="html/9a925a20-88f9-07b2-89d5-0b67b0e81be4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WritableSource.CheckDirectoryDeletable method" Url="html/0adac301-dc32-079b-3227-f74ab723b13e.htm" />
+  <HelpKINode Title="WritableSource.CheckFileDeletable method" Url="html/cd83ef3d-7f5a-1b3b-db23-dfe3b72a4da5.htm" />
+  <HelpKINode Title="WritableSource.FlushBuffers method" Url="html/8a961dd6-5a11-891c-3233-9576c5ec6aae.htm" />
+  <HelpKINode Title="WritableSource.MoveFile method" Url="html/02d6337b-9270-57db-4016-389dcc9c11b6.htm" />
+  <HelpKINode Title="WritableSource.PredecessorCheckDirectoryDeletable method" Url="html/57719962-7041-4ed1-4072-7e425adcb152.htm" />
+  <HelpKINode Title="WritableSource.PredecessorCheckFileDeletable method" Url="html/85e63a7b-55c6-c0e0-e9ca-5b1f5e2499bc.htm" />
+  <HelpKINode Title="WritableSource.PredecessorFlushBuffers method" Url="html/5c7123de-d3bb-a699-59d5-5c0ca104db25.htm" />
+  <HelpKINode Title="WritableSource.PredecessorMoveFile method" Url="html/952c3e49-a11a-8f82-9a3b-67b8c8d1d3e0.htm" />
+  <HelpKINode Title="WritableSource.PredecessorSetAllocatedSize method" Url="html/aa659473-07d2-8b83-9e41-613744ff286f.htm" />
+  <HelpKINode Title="WritableSource.PredecessorSetFileAttributes method" Url="html/ad4c2572-5aba-0a50-0bed-3b04bcc4ec62.htm" />
+  <HelpKINode Title="WritableSource.PredecessorSetFileSecurity method" Url="html/a8e492fb-e299-dd3b-6eaa-8a3f4ff099de.htm" />
+  <HelpKINode Title="WritableSource.PredecessorSetFileTimes method" Url="html/324a5584-3ee7-1307-f1ca-11c1340d3aad.htm" />
+  <HelpKINode Title="WritableSource.PredecessorSetLength method" Url="html/508936df-5bb7-c337-b066-37b71ab3293b.htm" />
+  <HelpKINode Title="WritableSource.PredecessorWriteFile method" Url="html/400ae67b-e785-b3a0-b75a-0bb4b854d02f.htm" />
+  <HelpKINode Title="WritableSource.SetAllocatedSize method" Url="html/cab46337-5366-95c4-2ba9-e28c2fa1f844.htm" />
+  <HelpKINode Title="WritableSource.SetFileAttributes method" Url="html/4daf9fb6-1498-16c9-f00e-7bad6bf0827e.htm" />
+  <HelpKINode Title="WritableSource.SetFileSecurity method" Url="html/45427a04-60c3-056f-51c1-75d64acbd385.htm" />
+  <HelpKINode Title="WritableSource.SetFileTimes method" Url="html/f7edd0e0-8053-ecc2-2350-901c08c92e81.htm" />
+  <HelpKINode Title="WritableSource.SetLength method" Url="html/7838adce-d355-c09c-748e-944db6429076.htm" />
+  <HelpKINode Title="WritableSource.WritableSource constructor" Url="html/789b896f-d4b8-e0a1-3b3a-af7a07ac77ca.htm" />
+  <HelpKINode Title="WritableSource.WriteFile method" Url="html/95265d15-9676-deaa-9e0b-9925c6c6db01.htm" />
+  <HelpKINode Title="WriteFile method" Url="html/95265d15-9676-deaa-9e0b-9925c6c6db01.htm" />
+  <HelpKINode Title="WriteToEndOfFile property" Url="html/d06bc91e-6c41-99be-9aa5-eaeeaeafec62.htm" />
+</HelpKI>

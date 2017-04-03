@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="32bfd8e6-7387-4d0e-82d9-016a2b1a1ae4" Title="LayeredDirectoryMirror.DirectoryMirror" Url="html/8e43a026-b829-c5d6-efc2-1a8c2a152363.htm">
+    <HelpTOCNode Id="6e435a7c-92f2-49b8-a82a-24a18e2cd4e7" Title="ReadOnlyDirectoryMirror Class" Url="html/9d919184-3b4b-39ec-0b51-c454c9692d1b.htm">
+      <HelpTOCNode Title="ReadOnlyDirectoryMirror Constructor " Url="html/4b5fbcda-c285-a530-d7a8-6d228013568f.htm" />
+      <HelpTOCNode Id="e91d7a15-7104-467d-8e20-6b4de033b0cb" Title="ReadOnlyDirectoryMirror Properties" Url="html/f85e90af-cc73-6448-b74d-78d028d0148e.htm">
+        <HelpTOCNode Title="DirectoryPath Property " Url="html/cac5948e-90d0-0387-af6f-5700fb50ea04.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="095659c0-b5ce-4b5d-9dea-9c5dd096d957" Title="ReadOnlyDirectoryMirror Methods" Url="html/6f8d67fa-22b6-13ad-aca7-3a503bd3737b.htm">
+        <HelpTOCNode Title="CleanupFileHandle Method " Url="html/e4f4c36f-ef72-d89b-0d24-d3be773e0130.htm" />
+        <HelpTOCNode Title="CloseFileHandle Method " Url="html/88750cee-6750-d456-621d-3ee925f339b4.htm" />
+        <HelpTOCNode Title="ControlsFile Method " Url="html/8f6dde77-9358-2c85-c296-b73448829f7a.htm" />
+        <HelpTOCNode Title="CreateFileHandle Method " Url="html/40b681c6-422b-e664-d8e7-f8e29d56e7d9.htm" />
+        <HelpTOCNode Title="GetFileInformation Method " Url="html/c98d7b52-f554-5ed3-2710-e263eeeb8985.htm" />
+        <HelpTOCNode Title="GetFileSystemSecurity Method " Url="html/c521ff66-c1a3-67ce-68e3-68e65ad05cda.htm" />
+        <HelpTOCNode Title="GetSpaceInformation Method " Url="html/54aff9e0-3fc7-db6e-953d-5bdb07403491.htm" />
+        <HelpTOCNode Title="HasFile Method " Url="html/17c2fd69-eb0f-676f-27e6-ff8f650d7fa2.htm" />
+        <HelpTOCNode Title="HasFilesInDirectory Method " Url="html/68470d05-3428-6c82-6a18-6dca828701d8.htm" />
+        <HelpTOCNode Title="ListFiles Method " Url="html/0502b774-8573-17bc-7a4b-4f4a1d770cdc.htm" />
+        <HelpTOCNode Title="OnMount Method " Url="html/987ec551-8c41-fb3e-d9f9-6695365945bc.htm" />
+        <HelpTOCNode Title="ReadFile Method " Url="html/f7ed7254-583b-9fd9-74f6-0065a7e47277.htm" />
+        <HelpTOCNode Title="TryLockFileRegion Method " Url="html/1e1b92f6-9086-166e-1a9d-737aa741bee8.htm" />
+        <HelpTOCNode Title="TryUnlockFileRegion Method " Url="html/9be0df6e-9ab6-7bdb-06d5-b48b4c092cb2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="71152203-1521-4587-9f27-666932c3b7df" Title="WritableDirectoryMirror Class" Url="html/c822f227-d250-a635-4d8e-a5558d8b91b9.htm">
+      <HelpTOCNode Title="WritableDirectoryMirror Constructor " Url="html/4d635203-bb54-97d4-4619-7f79ba51dfc7.htm" />
+      <HelpTOCNode Id="9c28b278-e9d8-45a2-859b-9f6e89323ed6" Title="WritableDirectoryMirror Properties" Url="html/4e56831e-cc04-c492-49d9-142727b293b7.htm">
+        <HelpTOCNode Title="DirectoryPath Property " Url="html/88706f8a-5676-2837-a9c4-1aed8840bb3b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c8e58ebd-94f3-4bbd-9c42-646410dfc2bc" Title="WritableDirectoryMirror Methods" Url="html/09b132ee-1c1c-74ec-e985-ac6561e4e028.htm">
+        <HelpTOCNode Title="CheckDirectoryDeletable Method " Url="html/032a2ace-27fe-b29e-cb18-9fec61464ca0.htm" />
+        <HelpTOCNode Title="CheckFileDeletable Method " Url="html/54c18843-9cd3-3d65-e63b-23f0673bea9d.htm" />
+        <HelpTOCNode Title="CleanupFileHandle Method " Url="html/757e3046-bf64-5e7f-568f-2c00061e502a.htm" />
+        <HelpTOCNode Title="CloseFileHandle Method " Url="html/405be95d-6b6b-2900-d441-e2b3871a0797.htm" />
+        <HelpTOCNode Title="ControlsFile Method " Url="html/4678da2d-7e15-1bb8-6624-1d9b5250fc64.htm" />
+        <HelpTOCNode Title="CreateFileHandle Method " Url="html/4790915c-7e19-50ee-fe72-7433f25fab1c.htm" />
+        <HelpTOCNode Title="FlushBuffers Method " Url="html/9fc42c12-9f46-fc50-ae6f-9f2e80820115.htm" />
+        <HelpTOCNode Title="GetFileInformation Method " Url="html/f1213ed3-d234-e93b-0082-76ccd5b10fa4.htm" />
+        <HelpTOCNode Title="GetFileSystemSecurity Method " Url="html/a6447ec7-91c5-6d93-1e33-59f354c97523.htm" />
+        <HelpTOCNode Title="GetSpaceInformation Method " Url="html/f1317f57-6eb0-8ac7-bd7c-0add6a9f56bf.htm" />
+        <HelpTOCNode Title="HasFile Method " Url="html/43ff070d-11b8-0609-e941-30ad944e0b5a.htm" />
+        <HelpTOCNode Title="HasFilesInDirectory Method " Url="html/e2c94aaf-65ef-0ef9-6a78-453b174d2f2a.htm" />
+        <HelpTOCNode Title="ListFiles Method " Url="html/b867c078-b3e6-da6f-6ef9-d3db6e7903f6.htm" />
+        <HelpTOCNode Title="MoveFile Method " Url="html/2f1071f7-9a7c-0d2e-3cc7-9c50e9b7b9b3.htm" />
+        <HelpTOCNode Title="OnMount Method " Url="html/585a47a0-3390-f8e3-0d23-ae4d9abdf240.htm" />
+        <HelpTOCNode Title="ReadFile Method " Url="html/62f9e9a8-2a2f-5163-8e3f-a0fe408b39b7.htm" />
+        <HelpTOCNode Title="SetAllocatedSize Method " Url="html/77831708-0ad7-8c69-4d28-e9c969e7aed4.htm" />
+        <HelpTOCNode Title="SetFileAttributes Method " Url="html/f253f32e-8563-5217-d838-7b1a2f739d38.htm" />
+        <HelpTOCNode Title="SetFileSecurity Method " Url="html/7d08edfa-fe1c-2b51-ef17-e6f9d9b5cf44.htm" />
+        <HelpTOCNode Title="SetFileTimes Method " Url="html/b7027a53-5681-a8c2-5f55-f6d2b6668d63.htm" />
+        <HelpTOCNode Title="SetLength Method " Url="html/31908aeb-3db2-f503-8769-01f8f4323978.htm" />
+        <HelpTOCNode Title="TryLockFileRegion Method " Url="html/2060cec9-7235-021a-7f21-f14898d9fc7a.htm" />
+        <HelpTOCNode Title="TryUnlockFileRegion Method " Url="html/32747110-6511-7944-0583-730b14dbfe34.htm" />
+        <HelpTOCNode Title="WriteFile Method " Url="html/6f2d31f7-8ecf-5516-f0cf-21e71300db2a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="832271a2-a2c0-4dc8-9cac-db7a9135eeab" Title="LayeredDirectoryMirror.OneWay" Url="html/d6b0b765-6849-cc2a-e275-85cc710ffc2c.htm">
+    <HelpTOCNode Id="0d239c2a-6e24-4743-ab78-bf3a37b214c3" Title="SimpleOneWayContentMirror Class" Url="html/907d05b7-f0cb-9f1f-5ebf-526ad7f4853d.htm">
+      <HelpTOCNode Id="16653aa5-f926-4a24-815b-a46511668aa6" Title="SimpleOneWayContentMirror Constructor " Url="html/82038728-509a-9dde-3845-a1fc3574413a.htm">
+        <HelpTOCNode Title="SimpleOneWayContentMirror Constructor (String)" Url="html/e4c874a4-0b49-45ae-2690-40a5a8b1e272.htm" />
+        <HelpTOCNode Title="SimpleOneWayContentMirror Constructor (String, Boolean)" Url="html/106c86de-cc35-dddb-1c3a-5c84f82c8e30.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fe082147-310a-457a-8ef1-db240d11a405" Title="SimpleOneWayContentMirror Properties" Url="html/af53446a-3979-94be-9e76-11e216e8cd9d.htm">
+        <HelpTOCNode Title="DirectoryPath Property " Url="html/ea511499-8a81-be83-0640-8eea0c98ce9b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7765bffd-5708-4d93-8bea-32eaf5d1057f" Title="SimpleOneWayContentMirror Methods" Url="html/612194bb-30a3-c8e7-5b8f-9f6d99e2eeec.htm">
+        <HelpTOCNode Title="CheckDirectoryDeletable Method " Url="html/a349c0cf-ffa1-d1de-fd15-a9ca8ddc4700.htm" />
+        <HelpTOCNode Title="CheckFileDeletable Method " Url="html/a325bdd2-95b0-e301-705f-4f0e788d33d3.htm" />
+        <HelpTOCNode Title="CleanupFileHandle Method " Url="html/c47be836-b152-d1cd-27e5-10aed488fbb7.htm" />
+        <HelpTOCNode Title="CloseFileHandle Method " Url="html/d456fa5b-6c2e-6fdd-7919-40c0e4722a8f.htm" />
+        <HelpTOCNode Title="ControlsFile Method " Url="html/622bb8a0-7580-3115-7f59-085ca38faf9d.htm" />
+        <HelpTOCNode Title="CreateFileHandle Method " Url="html/f3423371-83e9-0781-582f-5f78a72958aa.htm" />
+        <HelpTOCNode Title="FlushBuffers Method " Url="html/1e2ae08f-05c7-7a71-156c-1e72745743ed.htm" />
+        <HelpTOCNode Title="GetFileInformation Method " Url="html/dedab104-12b9-2367-0e36-c07b4e9c3d7a.htm" />
+        <HelpTOCNode Title="GetFileSystemSecurity Method " Url="html/087dcd81-d3ae-3088-ef2b-bb3853078bd0.htm" />
+        <HelpTOCNode Title="GetSpaceInformation Method " Url="html/80b4dc52-a99c-0765-289f-a1539a89dfe2.htm" />
+        <HelpTOCNode Title="HasFile Method " Url="html/1e728283-e179-f1be-76d7-1d3e45f08db6.htm" />
+        <HelpTOCNode Title="HasFilesInDirectory Method " Url="html/6aab973a-a78b-e844-4efb-a7428a36290d.htm" />
+        <HelpTOCNode Title="ListFiles Method " Url="html/9142b628-52e5-4eab-4675-1cb55be1450a.htm" />
+        <HelpTOCNode Title="MoveFile Method " Url="html/d64074a4-294d-ebf7-36a0-c7bccff25068.htm" />
+        <HelpTOCNode Title="OnMount Method " Url="html/beef05ab-aa6f-5700-36dc-06a1f6d210f0.htm" />
+        <HelpTOCNode Title="ReadFile Method " Url="html/8548a605-171f-0907-c0ba-aaccc42286e3.htm" />
+        <HelpTOCNode Title="SetAllocatedSize Method " Url="html/e349f514-a983-e119-456b-b48abdca439a.htm" />
+        <HelpTOCNode Title="SetFileAttributes Method " Url="html/dcc393a2-89ac-7acc-c874-86b110666729.htm" />
+        <HelpTOCNode Title="SetFileSecurity Method " Url="html/33c8c9eb-25dc-2290-7ed2-4482623014df.htm" />
+        <HelpTOCNode Title="SetFileTimes Method " Url="html/8e605ca0-2983-23f4-5728-c3aff6bfd51d.htm" />
+        <HelpTOCNode Title="SetLength Method " Url="html/b023d30c-a7d5-a32f-52f2-ea57282faa4b.htm" />
+        <HelpTOCNode Title="TryLockFileRegion Method " Url="html/90b7d245-dc5d-9993-b723-5a010b864add.htm" />
+        <HelpTOCNode Title="TryUnlockFileRegion Method " Url="html/0db07442-0655-2fae-b8f7-3e1c99eff133.htm" />
+        <HelpTOCNode Title="WriteFile Method " Url="html/f805f8cd-68ba-7275-face-15a409946eda.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0e833652-094a-41f6-b0fa-ebd0b66cd8e9" Title="LVFS" Url="html/916b36cd-c181-cd16-fd41-fdfbd62d8026.htm">
+    <HelpTOCNode Id="0dd9fbed-1789-48c2-8189-0e76b1cc44bf" Title="Program Class" Url="html/4dbdec1b-76f9-8004-ef7c-20d80af3e374.htm">
+      <HelpTOCNode Title="Program Constructor " Url="html/c7020269-3ee0-a156-64ab-1c73e7d3251f.htm" />
+      <HelpTOCNode Id="1823c954-7981-4e7c-9a12-3dc08e985022" Title="Program Methods" Url="html/03a3b84d-6a30-9f10-f7c1-c79f24f02b2d.htm">
+        <HelpTOCNode Title="Main Method " Url="html/afa5576a-faef-cd55-731e-b04fe5f34cd0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7affe685-a8c1-49f1-986c-edeebf085944" Title="LVFS.External" Url="html/ce38c3d6-f720-9c09-02a8-24d191d963ed.htm">
+    <HelpTOCNode Id="0d16e6cc-0d0b-45b3-8837-885975ec869a" Title="LVFSContextInfo Class" Url="html/09c74a4d-3965-0d4b-f9f9-f9b54f7d56d9.htm">
+      <HelpTOCNode Id="426e4647-a77d-4bdd-8684-4159ef16dcff" Title="LVFSContextInfo Properties" Url="html/ee5d4388-bfd1-dcc2-7ac8-a6795512897f.htm">
+        <HelpTOCNode Title="Context Property " Url="html/f94f2de7-0049-eb11-55be-9989578364c4.htm" />
+        <HelpTOCNode Title="DeleteOnClose Property " Url="html/d471a2f4-6046-0d9c-16d1-05c88272c9dc.htm" />
+        <HelpTOCNode Title="GetRequestor Property " Url="html/039c26a2-3bbd-95f5-bed4-89027301bb8e.htm" />
+        <HelpTOCNode Title="IsDirectory Property " Url="html/bde9b35e-0ff3-815a-1b10-1d96036adf5b.htm" />
+        <HelpTOCNode Title="NoCache Property " Url="html/d2d1d406-0191-c5ef-0aa8-77a05e0e0e69.htm" />
+        <HelpTOCNode Title="PagingIo Property " Url="html/828f593c-cf77-e30f-df23-33a42eeb649e.htm" />
+        <HelpTOCNode Title="ProcessId Property " Url="html/a8620861-2efb-c4ea-3e18-75c63210d009.htm" />
+        <HelpTOCNode Title="SynchronousIo Property " Url="html/32bd87e8-f9e0-2446-5b07-0874b5c4617e.htm" />
+        <HelpTOCNode Title="TryResetTimeout Property " Url="html/e8275dc7-5594-a485-1819-8152d5d31010.htm" />
+        <HelpTOCNode Title="WriteToEndOfFile Property " Url="html/d06bc91e-6c41-99be-9aa5-eaeeaeafec62.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LVFSContextInfo Methods" Url="html/463162bd-0240-56dc-a68f-489876434d2d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="01b836dd-a33a-428e-938e-de5f01671601" Title="LVFSInterface Class" Url="html/6a6b1f0f-1f9b-255e-aadf-e9d99eea95b1.htm">
+      <HelpTOCNode Title="LVFSInterface Constructor " Url="html/a539bec6-e245-c23c-8012-15c9a86b65c2.htm" />
+      <HelpTOCNode Id="6ca4fa3c-017e-4abb-9cd6-838156ebfab0" Title="LVFSInterface Methods" Url="html/d83363db-97c7-3a9e-c527-46a8ef43ad48.htm">
+        <HelpTOCNode Title="AddSource Method " Url="html/de4f18ba-5d84-1079-e720-54ad1f4ead78.htm" />
+        <HelpTOCNode Title="Mount Method " Url="html/2dd21ade-af8a-adb9-e5ee-6a0b9d63fd86.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="11a81293-952d-4ae6-bf1f-453b73cd8c61" Title="Source Class" Url="html/05c85d1b-e4e2-db6e-96e7-2b1e8b63402d.htm">
+      <HelpTOCNode Title="Source Constructor " Url="html/bb274acf-6dbd-f9a8-7298-289706e76042.htm" />
+      <HelpTOCNode Id="029ee107-3dd6-4049-993f-ad864bd14546" Title="Source Properties" Url="html/fc0a09df-7bc7-980f-e366-3bcc2225dff5.htm">
+        <HelpTOCNode Title="HasWritablePredecessor Property " Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
+        <HelpTOCNode Title="IsFirst Property " Url="html/3a5f7f08-e556-1b42-a610-ef5736c0f408.htm" />
+        <HelpTOCNode Title="IsWritable Property " Url="html/2b1dc17e-a782-5622-900f-d5d281a0bbae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2a1e5d7e-50c1-4f4b-ab34-e4d7206f17a5" Title="Source Methods" Url="html/77f6692c-21b7-4118-0aa5-774bd4ece55c.htm">
+        <HelpTOCNode Title="CleanupFileHandle Method " Url="html/3f62ab1b-5273-10fe-b802-4819c5155bc2.htm" />
+        <HelpTOCNode Title="CloseFileHandle Method " Url="html/2de2b3c4-48d4-9d57-9c3f-840203ca224c.htm" />
+        <HelpTOCNode Title="ControlsFile Method " Url="html/87990cd8-571b-6b3e-bf6c-c52786c0e731.htm" />
+        <HelpTOCNode Title="CreateFileHandle Method " Url="html/6b81cead-f2a8-7273-946c-f4c1e0bfe9bf.htm" />
+        <HelpTOCNode Title="GetFileInformation Method " Url="html/4cafdc44-07b4-0e64-ddda-2168c520670d.htm" />
+        <HelpTOCNode Title="GetFileSystemSecurity Method " Url="html/e84ef4ad-b3fe-7f99-909f-0472db29d73f.htm" />
+        <HelpTOCNode Title="GetPredecessorFileInformation Method " Url="html/0e52fa85-b757-4a2e-bebf-408af3713258.htm" />
+        <HelpTOCNode Title="GetPredecessorFileSystemSecurity Method " Url="html/23248ef0-0dce-bb1b-d7c5-bff377aa5a28.htm" />
+        <HelpTOCNode Title="GetSpaceInformation Method " Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
+        <HelpTOCNode Title="HasFile Method " Url="html/6bc038f3-5c55-3b60-9144-916357a46da7.htm" />
+        <HelpTOCNode Title="HasFilesInDirectory Method " Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
+        <HelpTOCNode Title="ListFiles Method " Url="html/f4ba0f3b-d509-8a14-34a2-2ee8e2ed3963.htm" />
+        <HelpTOCNode Title="ListPredecessorFiles Method " Url="html/216780f7-4554-09df-a3c7-9910623d86c4.htm" />
+        <HelpTOCNode Title="OnMount Method " Url="html/a87f8793-fd47-7f93-eaae-f102ede26e36.htm" />
+        <HelpTOCNode Title="OnUnmount Method " Url="html/3d83661d-c690-d23e-7f47-4f3902c18783.htm" />
+        <HelpTOCNode Title="PredecessorCleanupFileHandle Method " Url="html/995644a9-b48c-35dd-f023-3fb4f173ce89.htm" />
+        <HelpTOCNode Title="PredecessorCloseFileHandle Method " Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
+        <HelpTOCNode Title="PredecessorCreateFileHandle Method " Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
+        <HelpTOCNode Title="PredecessorHasFile Method " Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
+        <HelpTOCNode Title="PredecessorHasFilesInDirectory Method " Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+        <HelpTOCNode Title="PredecessorReadFile Method " Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
+        <HelpTOCNode Title="PredecessorTryLockFileRegion Method " Url="html/62df7783-b145-564d-c9a6-450a1f4e09b5.htm" />
+        <HelpTOCNode Title="PredecessorTryUnlockFileRegion Method " Url="html/6c9f4500-0697-9840-2ec0-b739afa5ff8b.htm" />
+        <HelpTOCNode Title="ReadFile Method " Url="html/217b92c6-6890-4e84-f4ad-aa1d5a2a9de0.htm" />
+        <HelpTOCNode Title="TryLockFileRegion Method " Url="html/9af17525-9f28-388c-140e-ebf63570cdff.htm" />
+        <HelpTOCNode Title="TryUnlockFileRegion Method " Url="html/2f9f62fc-25df-6c86-d210-88b90f6a3ad5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe2747e1-9952-41b9-81b2-858fdb1e367c" Title="WritableSource Class" Url="html/eef32198-3bf0-ea5f-1d5c-ef3cf7488a57.htm">
+      <HelpTOCNode Title="WritableSource Constructor " Url="html/789b896f-d4b8-e0a1-3b3a-af7a07ac77ca.htm" />
+      <HelpTOCNode Title="WritableSource Properties" Url="html/9a925a20-88f9-07b2-89d5-0b67b0e81be4.htm" />
+      <HelpTOCNode Id="9c419dd1-810d-4a57-95d5-4abf73e4d425" Title="WritableSource Methods" Url="html/e5f78317-152a-6858-9b43-bb9d36bfab7b.htm">
+        <HelpTOCNode Title="CheckDirectoryDeletable Method " Url="html/0adac301-dc32-079b-3227-f74ab723b13e.htm" />
+        <HelpTOCNode Title="CheckFileDeletable Method " Url="html/cd83ef3d-7f5a-1b3b-db23-dfe3b72a4da5.htm" />
+        <HelpTOCNode Title="FlushBuffers Method " Url="html/8a961dd6-5a11-891c-3233-9576c5ec6aae.htm" />
+        <HelpTOCNode Title="MoveFile Method " Url="html/02d6337b-9270-57db-4016-389dcc9c11b6.htm" />
+        <HelpTOCNode Title="PredecessorCheckDirectoryDeletable Method " Url="html/57719962-7041-4ed1-4072-7e425adcb152.htm" />
+        <HelpTOCNode Title="PredecessorCheckFileDeletable Method " Url="html/85e63a7b-55c6-c0e0-e9ca-5b1f5e2499bc.htm" />
+        <HelpTOCNode Title="PredecessorFlushBuffers Method " Url="html/5c7123de-d3bb-a699-59d5-5c0ca104db25.htm" />
+        <HelpTOCNode Title="PredecessorMoveFile Method " Url="html/952c3e49-a11a-8f82-9a3b-67b8c8d1d3e0.htm" />
+        <HelpTOCNode Title="PredecessorSetAllocatedSize Method " Url="html/aa659473-07d2-8b83-9e41-613744ff286f.htm" />
+        <HelpTOCNode Title="PredecessorSetFileAttributes Method " Url="html/ad4c2572-5aba-0a50-0bed-3b04bcc4ec62.htm" />
+        <HelpTOCNode Title="PredecessorSetFileSecurity Method " Url="html/a8e492fb-e299-dd3b-6eaa-8a3f4ff099de.htm" />
+        <HelpTOCNode Title="PredecessorSetFileTimes Method " Url="html/324a5584-3ee7-1307-f1ca-11c1340d3aad.htm" />
+        <HelpTOCNode Title="PredecessorSetLength Method " Url="html/508936df-5bb7-c337-b066-37b71ab3293b.htm" />
+        <HelpTOCNode Title="PredecessorWriteFile Method " Url="html/400ae67b-e785-b3a0-b75a-0bb4b854d02f.htm" />
+        <HelpTOCNode Title="SetAllocatedSize Method " Url="html/cab46337-5366-95c4-2ba9-e28c2fa1f844.htm" />
+        <HelpTOCNode Title="SetFileAttributes Method " Url="html/4daf9fb6-1498-16c9-f00e-7bad6bf0827e.htm" />
+        <HelpTOCNode Title="SetFileSecurity Method " Url="html/45427a04-60c3-056f-51c1-75d64acbd385.htm" />
+        <HelpTOCNode Title="SetFileTimes Method " Url="html/f7edd0e0-8053-ecc2-2350-901c08c92e81.htm" />
+        <HelpTOCNode Title="SetLength Method " Url="html/7838adce-d355-c09c-748e-944db6429076.htm" />
+        <HelpTOCNode Title="WriteFile Method " Url="html/95265d15-9676-deaa-9e0b-9925c6c6db01.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
