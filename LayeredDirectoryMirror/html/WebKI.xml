@@ -68,6 +68,12 @@
     <HelpKINode Title="Source.GetSpaceInformation Method " Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
     <HelpKINode Title="WritableDirectoryMirror.GetSpaceInformation Method " Url="html/f1317f57-6eb0-8ac7-bd7c-0add6a9f56bf.htm" />
   </HelpKINode>
+  <HelpKINode Title="HasDirectory method">
+    <HelpKINode Title="ReadOnlyDirectoryMirror.HasDirectory Method " Url="html/ac160cfa-a5eb-cccc-6ce6-bf6b99af28d5.htm" />
+    <HelpKINode Title="SimpleOneWayContentMirror.HasDirectory Method " Url="html/c1ba0f38-55a7-bbe5-02b3-3b6adc26ac87.htm" />
+    <HelpKINode Title="Source.HasDirectory Method " Url="html/a4a0d68a-e29d-7024-37c3-eabd153cd9a1.htm" />
+    <HelpKINode Title="WritableDirectoryMirror.HasDirectory Method " Url="html/bc2a540c-07aa-94e9-5865-7427e8dc9041.htm" />
+  </HelpKINode>
   <HelpKINode Title="HasFile method">
     <HelpKINode Title="ReadOnlyDirectoryMirror.HasFile Method " Url="html/17c2fd69-eb0f-676f-27e6-ff8f650d7fa2.htm" />
     <HelpKINode Title="SimpleOneWayContentMirror.HasFile Method " Url="html/1e728283-e179-f1be-76d7-1d3e45f08db6.htm" />
@@ -79,6 +85,12 @@
     <HelpKINode Title="SimpleOneWayContentMirror.HasFilesInDirectory Method " Url="html/6aab973a-a78b-e844-4efb-a7428a36290d.htm" />
     <HelpKINode Title="Source.HasFilesInDirectory Method " Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
     <HelpKINode Title="WritableDirectoryMirror.HasFilesInDirectory Method " Url="html/e2c94aaf-65ef-0ef9-6a78-453b174d2f2a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HasRegularFile method">
+    <HelpKINode Title="ReadOnlyDirectoryMirror.HasRegularFile Method " Url="html/af79bd71-5bf5-cf9d-58c4-ec88df361070.htm" />
+    <HelpKINode Title="SimpleOneWayContentMirror.HasRegularFile Method " Url="html/8ade02c3-0b47-c3fe-06fe-35c49806302e.htm" />
+    <HelpKINode Title="Source.HasRegularFile Method " Url="html/dc1afad1-171e-db33-da2b-bc975c650f84.htm" />
+    <HelpKINode Title="WritableDirectoryMirror.HasRegularFile Method " Url="html/97d5ba1e-b945-2a8d-6d05-03578810d951.htm" />
   </HelpKINode>
   <HelpKINode Title="HasWritablePredecessor property" Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
   <HelpKINode Title="IsDirectory property" Url="html/bde9b35e-0ff3-815a-1b10-1d96036adf5b.htm" />
@@ -150,8 +162,10 @@
   <HelpKINode Title="PredecessorCloseFileHandle method" Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
   <HelpKINode Title="PredecessorCreateFileHandle method" Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
   <HelpKINode Title="PredecessorFlushBuffers method" Url="html/5c7123de-d3bb-a699-59d5-5c0ca104db25.htm" />
+  <HelpKINode Title="PredecessorHasDirectory method" Url="html/322c02cc-fd0a-20f0-b63a-5cc451863ec1.htm" />
   <HelpKINode Title="PredecessorHasFile method" Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
   <HelpKINode Title="PredecessorHasFilesInDirectory method" Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+  <HelpKINode Title="PredecessorHasRegularFile method" Url="html/b8bc37b2-1b59-7b88-7f5c-04dfe8752856.htm" />
   <HelpKINode Title="PredecessorMoveFile method" Url="html/952c3e49-a11a-8f82-9a3b-67b8c8d1d3e0.htm" />
   <HelpKINode Title="PredecessorReadFile method" Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
   <HelpKINode Title="PredecessorSetAllocatedSize method" Url="html/aa659473-07d2-8b83-9e41-613744ff286f.htm" />
@@ -192,8 +206,10 @@
   <HelpKINode Title="ReadOnlyDirectoryMirror.GetFileInformation method" Url="html/c98d7b52-f554-5ed3-2710-e263eeeb8985.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.GetFileSystemSecurity method" Url="html/c521ff66-c1a3-67ce-68e3-68e65ad05cda.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.GetSpaceInformation method" Url="html/54aff9e0-3fc7-db6e-953d-5bdb07403491.htm" />
+  <HelpKINode Title="ReadOnlyDirectoryMirror.HasDirectory method" Url="html/ac160cfa-a5eb-cccc-6ce6-bf6b99af28d5.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.HasFile method" Url="html/17c2fd69-eb0f-676f-27e6-ff8f650d7fa2.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.HasFilesInDirectory method" Url="html/68470d05-3428-6c82-6a18-6dca828701d8.htm" />
+  <HelpKINode Title="ReadOnlyDirectoryMirror.HasRegularFile method" Url="html/af79bd71-5bf5-cf9d-58c4-ec88df361070.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.ListFiles method" Url="html/0502b774-8573-17bc-7a4b-4f4a1d770cdc.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.OnMount method" Url="html/987ec551-8c41-fb3e-d9f9-6695365945bc.htm" />
   <HelpKINode Title="ReadOnlyDirectoryMirror.ReadFile method" Url="html/f7ed7254-583b-9fd9-74f6-0065a7e47277.htm" />
@@ -243,8 +259,10 @@
   <HelpKINode Title="SimpleOneWayContentMirror.GetFileInformation method" Url="html/dedab104-12b9-2367-0e36-c07b4e9c3d7a.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.GetFileSystemSecurity method" Url="html/087dcd81-d3ae-3088-ef2b-bb3853078bd0.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.GetSpaceInformation method" Url="html/80b4dc52-a99c-0765-289f-a1539a89dfe2.htm" />
+  <HelpKINode Title="SimpleOneWayContentMirror.HasDirectory method" Url="html/c1ba0f38-55a7-bbe5-02b3-3b6adc26ac87.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.HasFile method" Url="html/1e728283-e179-f1be-76d7-1d3e45f08db6.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.HasFilesInDirectory method" Url="html/6aab973a-a78b-e844-4efb-a7428a36290d.htm" />
+  <HelpKINode Title="SimpleOneWayContentMirror.HasRegularFile method" Url="html/8ade02c3-0b47-c3fe-06fe-35c49806302e.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.ListFiles method" Url="html/9142b628-52e5-4eab-4675-1cb55be1450a.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.MoveFile method" Url="html/d64074a4-294d-ebf7-36a0-c7bccff25068.htm" />
   <HelpKINode Title="SimpleOneWayContentMirror.OnMount method" Url="html/beef05ab-aa6f-5700-36dc-06a1f6d210f0.htm" />
@@ -274,8 +292,10 @@
   <HelpKINode Title="Source.GetPredecessorFileInformation method" Url="html/0e52fa85-b757-4a2e-bebf-408af3713258.htm" />
   <HelpKINode Title="Source.GetPredecessorFileSystemSecurity method" Url="html/23248ef0-0dce-bb1b-d7c5-bff377aa5a28.htm" />
   <HelpKINode Title="Source.GetSpaceInformation method" Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
+  <HelpKINode Title="Source.HasDirectory method" Url="html/a4a0d68a-e29d-7024-37c3-eabd153cd9a1.htm" />
   <HelpKINode Title="Source.HasFile method" Url="html/6bc038f3-5c55-3b60-9144-916357a46da7.htm" />
   <HelpKINode Title="Source.HasFilesInDirectory method" Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
+  <HelpKINode Title="Source.HasRegularFile method" Url="html/dc1afad1-171e-db33-da2b-bc975c650f84.htm" />
   <HelpKINode Title="Source.HasWritablePredecessor property" Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
   <HelpKINode Title="Source.IsFirst property" Url="html/3a5f7f08-e556-1b42-a610-ef5736c0f408.htm" />
   <HelpKINode Title="Source.IsWritable property" Url="html/2b1dc17e-a782-5622-900f-d5d281a0bbae.htm" />
@@ -286,8 +306,10 @@
   <HelpKINode Title="Source.PredecessorCleanupFileHandle method" Url="html/995644a9-b48c-35dd-f023-3fb4f173ce89.htm" />
   <HelpKINode Title="Source.PredecessorCloseFileHandle method" Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
   <HelpKINode Title="Source.PredecessorCreateFileHandle method" Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
+  <HelpKINode Title="Source.PredecessorHasDirectory method" Url="html/322c02cc-fd0a-20f0-b63a-5cc451863ec1.htm" />
   <HelpKINode Title="Source.PredecessorHasFile method" Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
   <HelpKINode Title="Source.PredecessorHasFilesInDirectory method" Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+  <HelpKINode Title="Source.PredecessorHasRegularFile method" Url="html/b8bc37b2-1b59-7b88-7f5c-04dfe8752856.htm" />
   <HelpKINode Title="Source.PredecessorReadFile method" Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
   <HelpKINode Title="Source.PredecessorTryLockFileRegion method" Url="html/62df7783-b145-564d-c9a6-450a1f4e09b5.htm" />
   <HelpKINode Title="Source.PredecessorTryUnlockFileRegion method" Url="html/6c9f4500-0697-9840-2ec0-b739afa5ff8b.htm" />
@@ -327,8 +349,10 @@
   <HelpKINode Title="WritableDirectoryMirror.GetFileInformation method" Url="html/f1213ed3-d234-e93b-0082-76ccd5b10fa4.htm" />
   <HelpKINode Title="WritableDirectoryMirror.GetFileSystemSecurity method" Url="html/a6447ec7-91c5-6d93-1e33-59f354c97523.htm" />
   <HelpKINode Title="WritableDirectoryMirror.GetSpaceInformation method" Url="html/f1317f57-6eb0-8ac7-bd7c-0add6a9f56bf.htm" />
+  <HelpKINode Title="WritableDirectoryMirror.HasDirectory method" Url="html/bc2a540c-07aa-94e9-5865-7427e8dc9041.htm" />
   <HelpKINode Title="WritableDirectoryMirror.HasFile method" Url="html/43ff070d-11b8-0609-e941-30ad944e0b5a.htm" />
   <HelpKINode Title="WritableDirectoryMirror.HasFilesInDirectory method" Url="html/e2c94aaf-65ef-0ef9-6a78-453b174d2f2a.htm" />
+  <HelpKINode Title="WritableDirectoryMirror.HasRegularFile method" Url="html/97d5ba1e-b945-2a8d-6d05-03578810d951.htm" />
   <HelpKINode Title="WritableDirectoryMirror.ListFiles method" Url="html/b867c078-b3e6-da6f-6ef9-d3db6e7903f6.htm" />
   <HelpKINode Title="WritableDirectoryMirror.MoveFile method" Url="html/2f1071f7-9a7c-0d2e-3cc7-9c50e9b7b9b3.htm" />
   <HelpKINode Title="WritableDirectoryMirror.OnMount method" Url="html/585a47a0-3390-f8e3-0d23-ae4d9abdf240.htm" />

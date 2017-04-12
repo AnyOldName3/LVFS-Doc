@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirrorDocumentationMarkdown.shfbproj" started="03/04/2017 16:56:43">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirrorDocumentationMarkdown.shfbproj" started="12/04/2017 23:01:52">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -34,16 +34,16 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0025
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 03/04/2017 16:56:43.
+Build started 12/04/2017 23:01:53.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -53,7 +53,7 @@ GenerateRefInfo:
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 3 dependency assemblies.
-  Wrote information on 4 namespaces, 8 types, and 135 members
+  Wrote information on 4 namespaces, 8 types, and 145 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2017.1.28.0)
   Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -63,13 +63,13 @@ Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LV
 
 Build succeeded.
 
-Time Elapsed 00:00:00.36
-    Last step completed in 00:00:00.4853
+Time Elapsed 00:00:00.56
+    Last step completed in 00:00:00.7432
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 03/04/2017 16:56:44.
+Build started 12/04/2017 23:01:54.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.1.28.0)
@@ -89,12 +89,12 @@ Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LV
 
 Build succeeded.
 
-Time Elapsed 00:00:00.25
-    Last step completed in 00:00:00.3697
+Time Elapsed 00:00:00.32
+    Last step completed in 00:00:00.4825
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -109,17 +109,17 @@ Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFra
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\*.xml
 Indexing C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\LayeredDirectoryMirror.xml
 Indexing C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\LVFS.xml
-Indexed 157602 members in 127 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 157613 members in 127 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:00.9171
+    Last step completed in 00:00:01.0015
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -128,7 +128,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 03/04/2017 16:56:45.
+Build started 12/04/2017 23:01:55.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.1.28.0)
@@ -139,26 +139,26 @@ Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LV
 
 Build succeeded.
 
-Time Elapsed 00:00:00.05
+Time Elapsed 00:00:00.08
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1694
+    Last step completed in 00:00:00.2222
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0631
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 03/04/2017 16:56:45.
+Build started 12/04/2017 23:01:56.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.1.28.0)
@@ -208,13 +208,6 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMi
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ListFiles(System.String)] Unknown reference link target &#39;T:DokanNet.FileInformation&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.MoveFile(System.String,System.String,System.Boolean,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.MoveFile(System.String,System.String,System.Boolean,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;summary&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;returns&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;param name=&quot;path&quot;/&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;param name=&quot;buffer&quot;/&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;param name=&quot;bytesRead&quot;/&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;param name=&quot;offset&quot;/&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.ReadFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.SetAllocatedSize(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.SetAllocatedSize(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LayeredDirectoryMirror.OneWay.SimpleOneWayContentMirror.SetFileAttributes(System.String,System.IO.FileAttributes)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
@@ -279,20 +272,20 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Writ
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.SetLength(System.String,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj]
-  Processed 162 topic(s)
-  113 warning(s)
+  Processed 172 topic(s)
+  106 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.31
-    Last step completed in 00:00:05.4503
+Time Elapsed 00:00:06.06
+    Last step completed in 00:00:06.2346
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -337,11 +330,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\Output\Markdown\media\static.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\Output\Markdown\media\xna.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LayeredDirectoryMirror\Markdown\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.1659
+    Last step completed in 00:00:00.2312
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
@@ -350,18 +343,18 @@ Executing informational Generate Help Project build step for plug-ins (not used 
 <buildStep step="CompilingHelpFile">
 Generating markdown content...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateMarkdownContent.proj]
-  Finished generating 162 topics
+  Finished generating 172 topics
   Copying content to output folder...
-  Finished copying 205 files
-    Last step completed in 00:00:00.4701
+  Finished copying 215 files
+    Last step completed in 00:00:00.6736
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0313
+    Last step completed in 00:00:00.0581
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/04/2017 16:56:51.  Total time: 00:00:08.5003
+Build completed successfully at 12/04/2017 23:02:03.  Total time: 00:00:10.4610
 
 </buildStep>
 </shfbBuild>

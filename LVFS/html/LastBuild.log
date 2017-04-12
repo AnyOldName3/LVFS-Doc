@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFSDocumentationHTML.shfbproj" started="03/04/2017 16:56:14">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFSDocumentationHTML.shfbproj" started="12/04/2017 23:01:12">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -37,16 +37,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0000
+</plugIn>    Last step completed in 00:00:00.0115
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0025
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 03/04/2017 16:56:15.
+Build started 12/04/2017 23:01:13.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -56,7 +56,7 @@ GenerateRefInfo:
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 3 dependency assemblies.
-  Wrote information on 1 namespaces, 4 types, and 64 members
+  Wrote information on 1 namespaces, 4 types, and 68 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2017.1.28.0)
   Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -66,13 +66,13 @@ Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LV
 
 Build succeeded.
 
-Time Elapsed 00:00:00.44
-    Last step completed in 00:00:00.5792
+Time Elapsed 00:00:00.38
+    Last step completed in 00:00:00.5290
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 03/04/2017 16:56:15.
+Build started 12/04/2017 23:01:14.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.1.28.0)
@@ -92,12 +92,12 @@ Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LV
 
 Build succeeded.
 
-Time Elapsed 00:00:00.26
-    Last step completed in 00:00:00.3916
+Time Elapsed 00:00:00.53
+    Last step completed in 00:00:00.6631
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0055
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -111,26 +111,26 @@ Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\*.xml
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\*.xml
 Indexing C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\LVFS.xml
-Indexed 157526 members in 126 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 157530 members in 126 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:00.8390
+    Last step completed in 00:00:00.8798
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 03/04/2017 16:56:17.
+Build started 12/04/2017 23:01:15.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.1.28.0)
@@ -143,24 +143,24 @@ Build succeeded.
 
 Time Elapsed 00:00:00.06
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1829
+    Last step completed in 00:00:00.1912
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1018
+    Last step completed in 00:00:00.1036
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0055
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 03/04/2017 16:56:17.
+Build started 12/04/2017 23:01:16.
 Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.1.28.0)
@@ -267,7 +267,7 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.Writ
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;T:DokanNet.NtStatus&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:LVFS.External.WritableSource.WriteFile(System.String,System.Byte[],System.Int32@,System.Int64,LVFS.External.LVFSContextInfo)] Unknown reference link target &#39;F:DokanNet.DokanResult.Success&#39;. [C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\BuildTopics.proj]
-  Processed 76 topic(s)
+  Processed 80 topic(s)
   99 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
@@ -275,8 +275,8 @@ Done Building Project &quot;C:\Users\Chris\OneDrive\Documents\Part-II-Project\LV
 
 Build succeeded.
 
-Time Elapsed 00:00:05.90
-    Last step completed in 00:00:06.0463
+Time Elapsed 00:00:06.22
+    Last step completed in 00:00:06.3961
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -292,17 +292,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\HtmlHelp1
-Processed 76 HTML files
+Processed 80 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Documentation.hhc
 
 Processing website files in C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\Website
-Processed 76 HTML files
+Processed 80 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\WebKI.xml
 Saving website table of contents to C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\WebTOC.xml
-    Last step completed in 00:00:00.2154
+    Last step completed in 00:00:00.2618
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -444,11 +444,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.4627
+    Last step completed in 00:00:00.4609
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -456,7 +456,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -473,11 +473,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 0 minutes, 0 seconds
   
-  78	Topics
+  82	Topics
   
-  988	Local links
+  1,058	Local links
   
-  265	Internet links
+  273	Internet links
   
   0	Graphics
   
@@ -485,36 +485,36 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\HtmlHelp1\Documentation.chm, 160,545 bytes
+  Created c:\Users\Chris\OneDrive\Documents\Part-II-Project\LVFS\LVFS\Documentation\LVFS\html\Working\Output\HtmlHelp1\Documentation.chm, 162,223 bytes
   
-  Compression decreased file by 656,910 bytes.
+  Compression decreased file by 692,992 bytes.
   
-    Last step completed in 00:00:00.6390
+    Last step completed in 00:00:00.8618
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.1003
+</plugIn>    Last step completed in 00:00:00.1131
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 186 files for the website content
-    Last step completed in 00:00:00.1783
+Copied 190 files for the website content
+    Last step completed in 00:00:00.1992
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0685
+    Last step completed in 00:00:00.0611
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/04/2017 16:56:25.  Total time: 00:00:10.4862
+Build completed successfully at 12/04/2017 23:01:24.  Total time: 00:00:11.5015
 
 </buildStep>
 </shfbBuild>

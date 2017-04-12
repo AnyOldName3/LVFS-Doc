@@ -16,8 +16,10 @@
   <HelpKINode Title="GetPredecessorFileSystemSecurity method" Url="html/23248ef0-0dce-bb1b-d7c5-bff377aa5a28.htm" />
   <HelpKINode Title="GetRequestor property" Url="html/039c26a2-3bbd-95f5-bed4-89027301bb8e.htm" />
   <HelpKINode Title="GetSpaceInformation method" Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
+  <HelpKINode Title="HasDirectory method" Url="html/a4a0d68a-e29d-7024-37c3-eabd153cd9a1.htm" />
   <HelpKINode Title="HasFile method" Url="html/6bc038f3-5c55-3b60-9144-916357a46da7.htm" />
   <HelpKINode Title="HasFilesInDirectory method" Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
+  <HelpKINode Title="HasRegularFile method" Url="html/dc1afad1-171e-db33-da2b-bc975c650f84.htm" />
   <HelpKINode Title="HasWritablePredecessor property" Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
   <HelpKINode Title="IsDirectory property" Url="html/bde9b35e-0ff3-815a-1b10-1d96036adf5b.htm" />
   <HelpKINode Title="IsFirst property" Url="html/3a5f7f08-e556-1b42-a610-ef5736c0f408.htm" />
@@ -66,8 +68,10 @@
   <HelpKINode Title="PredecessorCloseFileHandle method" Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
   <HelpKINode Title="PredecessorCreateFileHandle method" Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
   <HelpKINode Title="PredecessorFlushBuffers method" Url="html/5c7123de-d3bb-a699-59d5-5c0ca104db25.htm" />
+  <HelpKINode Title="PredecessorHasDirectory method" Url="html/322c02cc-fd0a-20f0-b63a-5cc451863ec1.htm" />
   <HelpKINode Title="PredecessorHasFile method" Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
   <HelpKINode Title="PredecessorHasFilesInDirectory method" Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+  <HelpKINode Title="PredecessorHasRegularFile method" Url="html/b8bc37b2-1b59-7b88-7f5c-04dfe8752856.htm" />
   <HelpKINode Title="PredecessorMoveFile method" Url="html/952c3e49-a11a-8f82-9a3b-67b8c8d1d3e0.htm" />
   <HelpKINode Title="PredecessorReadFile method" Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
   <HelpKINode Title="PredecessorSetAllocatedSize method" Url="html/aa659473-07d2-8b83-9e41-613744ff286f.htm" />
@@ -101,8 +105,10 @@
   <HelpKINode Title="Source.GetPredecessorFileInformation method" Url="html/0e52fa85-b757-4a2e-bebf-408af3713258.htm" />
   <HelpKINode Title="Source.GetPredecessorFileSystemSecurity method" Url="html/23248ef0-0dce-bb1b-d7c5-bff377aa5a28.htm" />
   <HelpKINode Title="Source.GetSpaceInformation method" Url="html/7cc0c1bc-c330-3331-d505-c2b6b5d710af.htm" />
+  <HelpKINode Title="Source.HasDirectory method" Url="html/a4a0d68a-e29d-7024-37c3-eabd153cd9a1.htm" />
   <HelpKINode Title="Source.HasFile method" Url="html/6bc038f3-5c55-3b60-9144-916357a46da7.htm" />
   <HelpKINode Title="Source.HasFilesInDirectory method" Url="html/039cfc98-c5e2-162e-c75d-e3a5e4597049.htm" />
+  <HelpKINode Title="Source.HasRegularFile method" Url="html/dc1afad1-171e-db33-da2b-bc975c650f84.htm" />
   <HelpKINode Title="Source.HasWritablePredecessor property" Url="html/c6d34b46-76da-4a4d-c342-797e0b06818d.htm" />
   <HelpKINode Title="Source.IsFirst property" Url="html/3a5f7f08-e556-1b42-a610-ef5736c0f408.htm" />
   <HelpKINode Title="Source.IsWritable property" Url="html/2b1dc17e-a782-5622-900f-d5d281a0bbae.htm" />
@@ -113,8 +119,10 @@
   <HelpKINode Title="Source.PredecessorCleanupFileHandle method" Url="html/995644a9-b48c-35dd-f023-3fb4f173ce89.htm" />
   <HelpKINode Title="Source.PredecessorCloseFileHandle method" Url="html/5cbaa4b2-bcad-f5e5-4a27-e2455ebed771.htm" />
   <HelpKINode Title="Source.PredecessorCreateFileHandle method" Url="html/db56b167-baa9-ec77-451c-438746a0d757.htm" />
+  <HelpKINode Title="Source.PredecessorHasDirectory method" Url="html/322c02cc-fd0a-20f0-b63a-5cc451863ec1.htm" />
   <HelpKINode Title="Source.PredecessorHasFile method" Url="html/c69604ff-9769-8659-8fe5-cfbe9e26d33a.htm" />
   <HelpKINode Title="Source.PredecessorHasFilesInDirectory method" Url="html/0b963839-d2f8-cc81-47cc-f048b6a1a564.htm" />
+  <HelpKINode Title="Source.PredecessorHasRegularFile method" Url="html/b8bc37b2-1b59-7b88-7f5c-04dfe8752856.htm" />
   <HelpKINode Title="Source.PredecessorReadFile method" Url="html/8100db57-6116-eb4c-db16-d885c791710a.htm" />
   <HelpKINode Title="Source.PredecessorTryLockFileRegion method" Url="html/62df7783-b145-564d-c9a6-450a1f4e09b5.htm" />
   <HelpKINode Title="Source.PredecessorTryUnlockFileRegion method" Url="html/6c9f4500-0697-9840-2ec0-b739afa5ff8b.htm" />
